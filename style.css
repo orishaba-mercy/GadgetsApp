@@ -10,7 +10,7 @@
     text-decoration: none;
     background-color: rgb(36, 26, 26);
     color: white;
-    padding: 30px;
+    padding: 20px;
 }
 .nav a{
     text-decoration: none;
@@ -24,6 +24,7 @@
     font-size: 18px;
     border-radius: 8px;
     box-shadow: 30px;
+    margin-top: 10%;
     
 
 }
@@ -35,7 +36,64 @@
 .order{
     display: flex;
     justify-content: center;
+    margin-bottom: 2%;
+    margin: 10% 10%;
+    border:solid  #d4a4a4, #9fa7d8;
+    background: linear-gradient(to bottom, #d4a4a4, #9fa7d8);
+    
 }
 .cont1{
-    margin-top: 10%;
+    margin-bottom: 20%;
+
+   
+}
+.cont1 p{
+    padding: 30px;
+    font-size: 20PX;
+    margin-left: 30%;
+}
+.cont1 h1{
+    padding-top: 20%;
+  margin-left: 20%;  
+}
+.cont1 button{
+    padding: 19px;
+    font-size: 20PX;
+    background-color: yellow;
+    margin-left: 10%;
+}
+
+.devices1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.div1{
+    border: solid aliceblue;
+    background-color: rgb(200, 206, 211);
+    padding: 20px;
+}
+.heads{
+    background-image: url("images/headsets.png");
+    border: solid;
+    height: 30vh;
+    width: 20%;
+    background-position: center; 
+    background-size:contain ;
+    background-repeat: no-repeat;
+  
+}
+.heads2{
+    background-image: url(images/camera.jpg);
+    border: solid;
+    height: 30vh;
+    width: 20%;
+    background-position: center; 
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.heads3{
+    display: flex;
+    border: solid;
+    
 }
